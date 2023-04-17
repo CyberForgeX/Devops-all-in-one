@@ -52,8 +52,8 @@ This is a free and open source DevOps application that simplifies your workflow 
 
 By using this tech stack, you can create a powerful, unified DevOps application with a great UI/UX. The choice of web technologies allows you to create a responsive and accessible application that can be easily converted into a desktop app using Electron.
   ### Collaboration and Communication
-  - Slack & Microsoft Teams integrations
-    - Integrating with Slack and Microsoft Teams enables effective team communication and collaboration.
+  - Slack & Discord integrations
+    - Integrating with Slack and Discord enables effective team communication and collaboration.
 
   
  </p>
