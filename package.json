@@ -1,12 +1,34 @@
 {
-  "name": "Devops-all-in-one",
+  "name": "devops-all-in-one",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "<h1 align=\"center\">All-in-One DevOps App 🚀</h1>",
+  "main": "index.ts",
+"scripts": {
+  "dev": "turbo dev",
+  "build": "turbo build",
+  "start": "turbo start",
+  "electron-dev": "concurrently \"BROWSER=none npm run dev\" \"wait-on http://localhost:3000 && electron .\"",
+  "electron-build": "pnpm run build && electron-builder",
+  "release": "pnpm run electron-build -- -p always"
+},
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "CyberForgeX",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberForgeX/Devops-all-in-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CyberForgeX/Devops-all-in-one/issues"
+  },
+  "homepage": "https://github.com/CyberForgeX/Devops-all-in-one#readme",
+  "dependencies": {
+    "electron": "^24.1.2",
+    "is-electron": "^2.2.2",
+    "mongodb": "^5.2.0",
+    "nestts": "^0.0.1",
+    "turbo": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
