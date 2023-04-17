@@ -29,8 +29,8 @@ This is a free and open source DevOps application that simplifies your workflow 
                 
     To create a unified DevOps application with all possible features, great UI, and UX, you can choose a web stack with popular and reliable technologies. Here's an example of a powerful tech stack for such an application:
 
-    Backend: Node.js (Express.js)
-        Node.js provides a fast and scalable runtime environment, while Express.js is a minimalist web framework for building RESTful APIs.
+    Backend: NestJS
+        Node.js provides a fast and scalable runtime environment, while Socket.IO handles real-time data management and Express.js is a minimalist web framework for building RESTful APIs.
 
     Frontend: React.js
         React.js is a popular, powerful, and flexible library for building user interfaces. Additionally, you can use Material-UI, a popular React UI framework, to create a sleek and responsive UI for your application.
