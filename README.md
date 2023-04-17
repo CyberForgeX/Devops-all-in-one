@@ -20,6 +20,68 @@ This is a free and open source DevOps application that simplifies your workflow 
   <li>Once the installation is complete, you can start using the All-in-One DevOps App to manage your DevOps pipeline.</li>
 </ol>
 
+
+<h2 align="center">Tech Stack</h2>
+
+<p align=center">
+      Backend: Node.js (Express.js)
+
+    Node.js provides a fast and scalable runtime environment, while Express.js is a minimalist web framework for building RESTful APIs.
+
+    Frontend: React.js
+
+    React.js is a popular, powerful, and flexible library for building user interfaces.
+
+    Database: PostgreSQL
+
+    PostgreSQL is a robust, open-source, and high-performance relational database management system.
+
+    Message Broker: RabbitMQ
+
+    RabbitMQ is a reliable, open-source message broker that enables asynchronous communication between microservices.
+
+    Containerization: Docker
+
+    Docker is a leading platform for containerization, allowing you to package applications and their dependencies into portable containers.
+
+    Container Orchestration: Kubernetes
+
+    Kubernetes is a powerful container orchestration system for managing, scaling, and deploying containerized applications.
+
+    API Gateway: Kong
+
+    Kong is a fast, scalable, and extensible API gateway that offers load balancing, authentication, and other essential features for managing APIs.
+
+    Infrastructure as Code: Terraform
+
+    Terraform is a widely-used Infrastructure as Code tool that automates the provisioning of infrastructure resources.
+
+    Configuration Management: Ansible
+
+    Ansible is a popular, open-source tool for automating configuration management, application deployment, and task execution.
+
+    CI/CD: Jenkins
+
+    Jenkins is a widely-used, open-source Continuous Integration and Continuous Deployment tool that supports a vast range of plugins and integrations.
+
+    Code Repository: Git (with GitLab, GitHub, or Bitbucket)
+
+    Git is a widely-used version control system, and GitLab, GitHub, or Bitbucket provide reliable code hosting platforms.
+
+    Monitoring: Prometheus & Grafana
+
+    Prometheus is a powerful monitoring system, while Grafana is an open-source tool for visualizing metrics and creating dashboards.
+
+    Logging: Elasticsearch, Logstash, and Kibana (ELK Stack)
+
+    Elasticsearch is a search and analytics engine, Logstash is a data processing pipeline, and Kibana is a data visualization tool. Together, they form the ELK Stack for logging and monitoring purposes.
+
+    Collaboration and Communication: Slack & Microsoft Teams integrations
+
+    Integrating with Slack and Microsoft Teams enables effective team communication and collaboration.
+  
+ </p>
+
 <h2 align="center">🎉 Key Features</h2>
 
 <p align="center">
